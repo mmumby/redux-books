@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  margin: 20px;
+}
+
+.book-list {
+  flex: 1;
+}
+
+.book-details {
+  flex: 4;
+}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectBook } from '../actions/index';
 import { bindActionCreators } from 'redux';
-import { Segment, List } from 'semantic-ui-react';
+import { Segment} from 'semantic-ui-react';
 
 class BookList extends Component {
 
@@ -20,7 +20,7 @@ class BookList extends Component {
 
   render() {
     return (
-        <Segment.Group compact>
+        <Segment.Group compact className="book-list">
           {this.renderList()}
         </Segment.Group>
     );
