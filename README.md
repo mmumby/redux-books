@@ -1,19 +1,13 @@
 # Redux-books
 
-Udemy course.
+Udemy course. A simple redux example that shows a list of books and its related information once clicked.
 
-### Getting Started
-
-
-Install the dependencies and start the server.
-
-```
-npm install
-npm start
-open http://localhost:3000
 ```
 
 ### Dependencies
 
-* React: ^16.0.0
+* React
+* React-redux
+* Redux
+* Semantic-ui-react
 
