@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import BookList from '../containers/BookList';
+import BookList from './BookList';
+import BookDetail from './BookDetail';
 import '../styles/App.css';
+import { Input } from 'semantic-ui-react';
 
 
 class App extends Component {
@@ -8,6 +10,7 @@ class App extends Component {
     return (
       <div>
         <BookList />
+        <BookDetail />
       </div>
     );
   }
